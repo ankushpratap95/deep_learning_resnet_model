@@ -57,9 +57,9 @@ This repository contains the proposed modified model of Resnet, with 4.9 M param
 After running our model on 200 epochs we got the maximum testing accuracy of about 91%, with a training loss of about 0.02 and testing Loss of about 0.71. 
 
 
-### How to run the model.
+### How to run the model.(GPU required)
 
-0. Directly run the ipynb file on google colab or jupyter notebook---GPU required.
-0. Load the .pt file and run it according on your dataset. 
+0. Directly run the ipynb file on google colab or jupyter notebook.
+0. Load the .pt file and run it accordingly on your dataset. 
 
 
