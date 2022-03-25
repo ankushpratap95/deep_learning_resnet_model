@@ -16,7 +16,7 @@ By [Ankush Pratap Singh](), [Dhruv Agarwal](), [Kirk Nickish]()
 This repository contains the proposed modified model of Resnet, with 4.9 Million parameters. In this repo we have trained our model on different optimizers like ADAM, SGD, RMSProp and Adagrad models and chose ADAM as best for the CIFAR-10 dataset.
 
 0. In this repo there are 3 files:- 
- - .ipynb file contains the script of our model which can be simply run.
+ - .py file contains the script of our model which can be simply run.
  - .pt file contains the trained weights of our resnet architecture.
  - .pdf file is the report with detailed explanation and results of our model. 
 
@@ -57,5 +57,5 @@ After running our model on 200 epochs we got the maximum testing accuracy of abo
 ### How_to_run_the_model (GPU required)
 
 0. Download or clone the required repo and then
- - 1st Method- Directly run the .ipynb file on google colab or jupyter notebook.
+ - 1st Method- Directly run the .py file on google colab or jupyter notebook.
  - 2nd Method- Load .pt file and run it accordingly on your dataset. 
