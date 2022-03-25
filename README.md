@@ -30,8 +30,7 @@ This repository contains the proposed modified model of Resnet, with 4.9 M param
 
 ### Architecture 
 
-0. Original Resnet-18 model provides 11 Million parameters for the residual blocks [2,2,2,2].
-
+- Original Resnet-18 model provides 11 Million parameters for the residual blocks [2,2,2,2].
  - We have run the model on [3,3,3,3] and [1,1,1,1], in this we got about 17 million parameters for [3,3,3,3] and 4.9 million parameters for [1,1,1,1]. 
  - We kept number of input channels to be 64, kernel size to be 3x3 and average pool size to be 4x4. 
  - Other parameters remains unchanged for resnet model. 
