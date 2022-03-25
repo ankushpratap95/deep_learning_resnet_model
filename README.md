@@ -39,14 +39,14 @@ This repository contains the proposed modified model of Resnet, with 4.9 M param
 
 ### Model_Training
 
-0. In training of this model, we have used different optimizers like ADAM, SGD, RMSProp and Adagrad. After comparing them Adam came out to be best among all. 
+- In training of this model, we have used different optimizers like ADAM, SGD, RMSProp and Adagrad. After comparing them Adam came out to be best among all. 
  - 91% of accuracy has been observed by Adam Optimizer. 
 
-0. Learning Rate- We have observed accuracy on different learning rate such as 0.5, 0.1  and 0.01. In lr of 0.01 we achieved the maximum accuracy.
+- Learning Rate- We have observed accuracy on different learning rate such as 0.5, 0.1  and 0.01. In lr of 0.01 we achieved the maximum accuracy.
 
-0. Implemented Data augmentation such as random horizontal flip, random crop and normalization techniques in our model.
+- Implemented Data augmentation such as random horizontal flip, random crop and normalization techniques in our model.
 
-0. In regularization, we have added Dropout layers for probability of 0.1 after observing it from 0.1 to 0.5 as p=0.1 gives best accuracy.
+- In regularization, we have added Dropout layers for probability of 0.1 after observing it from 0.1 to 0.5 as p=0.1 gives best accuracy.
 
 
 
