@@ -13,7 +13,7 @@ By [Ankush Pratap Singh](), [Dhruv Agarwal](), [Kirk Nickish]()
 
 ### Introduction
 
-This repository contains the proposed modified model of Resnet, with 4.9 M parameters. In this repo we have trained our model on different optimizers like  ADAM, SGD, RMSProp and Adagrad models for the CIFAR-10 dataset.
+This repository contains the proposed modified model of Resnet, with 4.9 M parameters. In this repo we have trained our model on different optimizers like ADAM, SGD, RMSProp and Adagrad models and chose ADAM as best for the CIFAR-10 dataset.
 
 0. In this repo there are 3 files:- 
  - .ipynb file contains the script of our model which can be simply run.
@@ -27,7 +27,6 @@ This repository contains the proposed modified model of Resnet, with 4.9 M param
 	- Changes of mini-batch size should impact accuracy (we use a mini-batch of 64 images).
 	- We have implemented data augmentation, dropout layers and normalization techniques for best accuracy. 
     - We are running these models on 200 epochs at 0.01 learning rate. 
-    - To get the plots of respective models please uncomment the specific model and run the file for desired result and outputs.
 
 ### Architecture 
 
@@ -41,7 +40,6 @@ This repository contains the proposed modified model of Resnet, with 4.9 M param
 ### Model_Training
 
 0. In training of this model, we have used different optimizers like ADAM, SGD, RMSProp and Adagrad. After comparing them Adam came out to be best among all. 
- - To use any of the optimizer please uncomment the same and comment out the present optimizer. 
  - 91% of accuracy has been observed by Adam Optimizer. 
 
 0. Learning Rate- We have observed accuracy on different learning rate such as 0.5, 0.1  and 0.01. In lr of 0.01 we achieved the maximum accuracy.
@@ -59,7 +57,6 @@ After running our model on 200 epochs we got the maximum testing accuracy of abo
 
 ### How_to_run_the_model (GPU required)
 
-0. Directly run the .ipynb file on google colab or jupyter notebook.
-0. Load the .pt file and run it accordingly on your dataset. 
-
-
+0. Download or clone the required repo and then
+ - 1st Method- Directly run the .ipynb file on google colab or jupyter notebook.
+ - 2nd Method- Load .pt file and run it accordingly on your dataset. 
