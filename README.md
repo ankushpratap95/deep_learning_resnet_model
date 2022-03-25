@@ -8,7 +8,7 @@ By [Ankush Pratap Singh](), [Dhruv Agarwal](), [Kirk Nickish]()
 0. [Architecture](#Architecture)
 0. [Model Training](#ModelTraining)
 0. [Result](#Result)
-0. [How to run the model](#Howtorunthemodel)
+0. [How to run the model](#How_to_run_the_model)
 
 
 ### Introduction
@@ -38,7 +38,7 @@ This repository contains the proposed modified model of Resnet, with 4.9 M param
  - Other parameters remains unchanged for resnet model. 
 
 
-### Model Training
+### Model_Training
 
 0. In training of this model, we have used different optimizers like ADAM, SGD, RMSProp and Adagrad. After comparing them Adam came out to be best among all. 
  - To use any of the optimizer please uncomment the same and comment out the present optimizer. 
@@ -57,9 +57,9 @@ This repository contains the proposed modified model of Resnet, with 4.9 M param
 After running our model on 200 epochs we got the maximum testing accuracy of about 91%, with a training loss of about 0.02 and testing Loss of about 0.71. 
 
 
-### How to run the model.(GPU required)
+### How_to_run_the_model (GPU required)
 
-0. Directly run the ipynb file on google colab or jupyter notebook.
+0. Directly run the .ipynb file on google colab or jupyter notebook.
 0. Load the .pt file and run it accordingly on your dataset. 
 
 
