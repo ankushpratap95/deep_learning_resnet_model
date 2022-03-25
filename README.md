@@ -13,7 +13,7 @@ By [Ankush Pratap Singh](), [Dhruv Agarwal](), [Kirk Nickish]()
 
 ### Introduction
 
-This repository contains the proposed modified model of Resnet, with 4.9 M parameters. In this repo we have trained our model on different optimizers like ADAM, SGD, RMSProp and Adagrad models and chose ADAM as best for the CIFAR-10 dataset.
+This repository contains the proposed modified model of Resnet, with 4.9 Million parameters. In this repo we have trained our model on different optimizers like ADAM, SGD, RMSProp and Adagrad models and chose ADAM as best for the CIFAR-10 dataset.
 
 0. In this repo there are 3 files:- 
  - .ipynb file contains the script of our model which can be simply run.
