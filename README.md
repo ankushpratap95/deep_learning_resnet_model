@@ -1,28 +1,65 @@
-# Deep_Learning_Resnet_Model
+# Deep Learning Resnet Model
 
 By [Ankush Pratap Singh](), [Dhruv Agarwal](), [Kirk Nickish]()
 
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Disclaimer](#disclaimer)
-0. [Models](#models)
-0. [Results](#results)
+0. [Architecture](#Architecture)
+0. [Model Training](#ModelTraining)
+0. [Result](#Result)
+0. [How to run the model](#Howtorunthemodel)
 
 
 ### Introduction
 
-This repository contains the original model - Resnet-18, with 4.9 M parameters. In this repo we have trained our model on different optimizers like  ADAM, SGD and Adagrad models for the CIFAR-10 dataset. 
+This repository contains the proposed modified model of Resnet, with 4.9 M parameters. In this repo we have trained our model on different optimizers like  ADAM, SGD, RMSProp and Adagrad models for the CIFAR-10 dataset.
+
+0. In this repo there are 3 files:- 
+ - .ipynb file contains the script of our model which can be simply run.
+ - .pt file contains the trained weights of our resnet architecture.
+ - .pdf file is the report with detailed explanation and results of our model. 
 
 ### Disclaimer 
-
 
 0. If you want to train these models, please notice that:
 	- GPU establishment is required. 
 	- Changes of mini-batch size should impact accuracy (we use a mini-batch of 64 images).
-	- We have implemeted data augmentation, dropout layers and normalization techniques for best accuracy. 
-    - We are running these models on 100 epochs at 0.01 learning rate. 
-    - To get the plots of respective models please uncomment the specific model and run the file for desired resut and outputs.
+	- We have implemented data augmentation, dropout layers and normalization techniques for best accuracy. 
+    - We are running these models on 200 epochs at 0.01 learning rate. 
+    - To get the plots of respective models please uncomment the specific model and run the file for desired result and outputs.
+
+### Architecture 
+
+0. Original Resnet-18 model provides 11 Million parameters for the residual blocks [2,2,2,2].
+
+ - We have run the model on [3,3,3,3] and [1,1,1,1], in this we got about 17 million parameters for [3,3,3,3] and 4.9 million parameters for [1,1,1,1]. 
+ - We kept number of input channels to be 64, kernel size to be 3x3 and average pool size to be 4x4. 
+ - Other parameters remains unchanged for resnet model. 
 
 
+### Model Training
+
+0. In training of this model, we have used different optimizers like ADAM, SGD, RMSProp and Adagrad. After comparing them Adam came out to be best among all. 
+ - To use any of the optimizer please uncomment the same and comment out the present optimizer. 
+ - 91% of accuracy has been observed by Adam Optimizer. 
+
+0. Learning Rate- We have observed accuracy on different learning rate such as 0.5, 0.1  and 0.01. In lr of 0.01 we achieved the maximum accuracy.
+
+0. Implemented Data augmentation such as random horizontal flip, random crop and normalization techniques in our model.
+
+0. In regularization, we have added Dropout layers for probability of 0.1 after observing it from 0.1 to 0.5 as p=0.1 gives best accuracy.
+
+
+
+### Result
+
+After running our model on 200 epochs we got the maximum testing accuracy of about 91%, with a training loss of about 0.02 and testing Loss of about 0.71. 
+
+
+### How to run the model.
+
+0. Directly run the ipynb file on google colab or jupyter notebook---GPU required.
+0. Load the .pt file and run it according on your dataset. 
 
 
