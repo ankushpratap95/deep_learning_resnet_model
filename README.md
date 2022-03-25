@@ -51,7 +51,7 @@ This repository contains the proposed modified model of Resnet, with 4.9 Million
 
 ### Result
 
-After running our model on 200 epochs we got the maximum testing accuracy of about 91%, with a training loss of about 0.02 and testing Loss of about 0.71. 
+After running our model on 200 epochs we got the maximum testing accuracy of about 91%, with a training loss of about 0.02 and testing loss of about 0.71. 
 
 
 ### How_to_run_the_model (GPU required)
