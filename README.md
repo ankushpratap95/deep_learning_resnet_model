@@ -59,3 +59,11 @@ After running our model on 200 epochs we got the maximum testing accuracy of abo
 0. Download or clone the required repo and then
  - 1st Method- Directly run the .py file on google colab or jupyter notebook.
  - 2nd Method- Load .pt file and run it accordingly on your dataset. 
+
+1. Testing the .pt file
+ - Put project1_model.py and project1_model.pt file in the same directory
+ - Run self_eval.py file
+
+2. Create new .pt file
+ - Put project1_model.py in the same directory as training.py file
+ - Run training.py file
