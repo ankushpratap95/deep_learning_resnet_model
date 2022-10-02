@@ -1,6 +1,6 @@
 # Deep Learning Resnet Model
 
-By [Ankush Pratap Singh](), [Dhruv Agarwal](), [Kirk Nickish]()
+By [Ankush Pratap Singh](), [Kirk Nickish]()
 
 ### Table of Contents
 0. [Introduction](#introduction)
